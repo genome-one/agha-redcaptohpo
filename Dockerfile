@@ -3,7 +3,7 @@ FROM 822459375388.dkr.ecr.ap-southeast-2.amazonaws.com/infra-jdk:latest
 
 # Create log file directory and set permission
 RUN groupadd -r redcap2hpo && useradd -r --create-home -g redcap2hpo redcap2hpo
-RUN if [ ! -d /var/log/genome-one/ ];then mkdir /var/log/genome-one/;fi
+RUN if [ ! -d /var/log/agha/ ];then mkdir /var/log/agha/;fi
 RUN chown -R redcap2hpo:redcap2hpo /var/log/agha
 
 # Move project artifact
