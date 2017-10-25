@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+questionnaire:
+  definitions: /home/tudor/dev/redcaptohpo/src/main/resources

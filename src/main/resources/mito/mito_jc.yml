@@ -1,0 +1,114 @@
+mito_jc:
+    definition:
+        type: binary
+        value: Joint contractures 
+        directMapping: HP:0001371
+        options:
+            Y:
+                value: Present
+            N:
+                value: Absent
+    children:
+        mito_jc_amc:
+            definition:
+                type: binary
+                value: Arthrogryposis multiplex congenita
+                directMapping: HP:0002804
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_neck:
+            definition:
+                type: binary
+                value: Neck
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_shoulders:
+            definition:
+                type: binary
+                value: Shoulders
+                directMapping: HP:0003044
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_elbows:
+            definition:
+                type: binary
+                value: Elbows
+                directMapping: HP:0002987
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_wrists:
+            definition:
+                type: binary
+                value: Wrists
+                directMapping: HP:0001239
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_fingers:
+            definition:
+                type: binary
+                value: Fingers
+                directMapping: HP:0012785
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_hip:
+            definition:
+                type: binary
+                value: Hip
+                directMapping: HP:0003273
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_knees:
+            definition:
+                type: binary
+                value: Knees
+                directMapping: HP:0006380
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_ankles:
+            definition:
+                type: binary
+                value: Ankles
+                directMapping: HP:0006466
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_toes:
+            definition:
+                type: binary
+                value: Toes
+                directMapping: HP:0005830
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jc_com:
+            definition:
+                type: text
+                value: Comment

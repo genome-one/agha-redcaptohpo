@@ -1,0 +1,104 @@
+mito_fascul:
+    definition:
+        type: binary
+        value: Fasciculations
+        directMapping: HP:0002380
+        options:
+            Y:
+                value: Present
+            N:
+                value: Absent
+    children:
+        mito_fasc:
+            definition:
+                type: text
+                value: Fasciculation pattern
+        mito_ma_comm:
+            definition:
+                type: text
+                value: Short comment
+        mito_mp:
+            definition:
+                type: binary
+                value: Muscle pain
+                directMapping: HP:0003326
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_mc:
+            definition:
+                type: binary
+                value: Muscle cramps
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+                directMapping: HP:0003394
+            children:
+                mito_mc_spec:
+                    definition:
+                        type: multiple
+                        options:
+                            1:
+                                value: At rest
+                                directMapping: HP:0003449
+                            2:
+                                value: With exercise
+                                directMapping: HP:0003710
+        mito_fc:
+            definition:
+                type: binary
+                value: Muscle fatigue
+                directMapping: HP:0003750
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+                children:
+                    mito_fc_spec:
+                        type: multiple
+                        options:
+                            1:
+                                value: Independently ambulatory for 500-1000m without fatigue
+                            2:
+                                value: Independently ambulatory for <500m
+                            3:
+                                value:Dependent ambulation due to neuromuscular disease (wheelchair)
+        mito_exercise:
+            definition:
+                type: binary
+                value: General exercise intolerance
+                directMapping: HP:0003546
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+                children:
+                    mito_exercise_comm:
+                        type: text
+                        value: Comment
+        mito_rhab:
+            definition:
+                type: binary
+                value: Rhabdomyolysis / myoglobinuria
+                directMapping: HP:0003201
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_hyper:
+            definition:
+                type: binary
+                value: Malignant hyperthermia
+                directMapping: HP:0002047
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent

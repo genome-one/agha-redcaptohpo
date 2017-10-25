@@ -1,0 +1,98 @@
+mito_jh:
+    definition:
+        type: binary
+        value: Joint hyperlaxity/ hypermobility
+        directMapping: HP:0001382
+        options:
+            Y:
+                value: Present
+            N:
+                value: Absent
+    children:
+        mito_jh_neck:
+            definition:
+                type: binary
+                value: Neck
+                directMapping: HP:0003318
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_elbows:
+            definition:
+                type: binary
+                value: Elbows
+                directMapping: HP:0010485
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_fingers:
+            definition:
+                type: binary
+                value: Fingers
+                directMapping: HP:0006094
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_hip:
+            definition:
+                type: binary
+                value: Hip
+                directMapping: SCTID: 298196001
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_knees:
+            definition:
+                type: binary
+                value: Knees
+                directMapping: HP:0002816
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_ankles:
+            definition:
+                type: binary
+                value: Ankles
+                directMapping: HP:0006460
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_wrist:
+            definition:
+                type: binary
+                value: Wrist
+                directMapping: HP:0005072
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_cl:
+            definition:
+                type: binary
+                value: Cutaneous laxity
+                options:
+                    Y:
+                        value: Present
+                    N:
+                        value: Absent
+        mito_jh_bs:
+            definition:
+                type: int
+                value: Beighton score
+        mito_jh_com:
+            definition:
+                type: text
+                value: Comment

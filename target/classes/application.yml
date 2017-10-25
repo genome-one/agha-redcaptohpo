@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+
+spring:
+  profiles:
+    active: dev
+
+questionnaire:
+  definitions: /home/tudor/dev/redcaptohpo/src/main/resources/mito

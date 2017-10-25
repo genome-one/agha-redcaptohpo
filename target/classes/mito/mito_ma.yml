@@ -1,0 +1,98 @@
+mito_ma:
+    definition:
+        type: binary
+        value: Muscle atrophy / hypotrophy
+        options:
+            1:
+                value: Present
+            3:
+                value: Absent
+            4:
+                value: Not assessed
+        directMapping: HP:0003202
+    children:
+        mito_ma_facial:
+            definition:
+                type: binary
+                value: Facial expression normal
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_axial:
+            definition:
+                type: binary
+                value: Axial/ paraspinal
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_mass:
+            definition:
+                type: binary
+                value: Masseter
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_gloss:
+            definition:
+                type: binary
+                value: Glossal
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_proxul:
+            definition:
+                type: binary
+                value: Proximal UL
+                directMapping: HP:0008948
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_proxll:
+            definition:
+                type: binary
+                value: Proximal LL
+                directMapping: HP:0008956
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_distalul:
+            definition:
+                type: binary
+                value: Distal UL
+                directMapping: HP:0007149
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_distalll:
+            definition:
+                type: binary
+                value: Distal LL
+                directMapping: HP:0008944
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_ma_hand:
+            definition:
+                type: binary
+                value: Intrinsic hand muscles
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent

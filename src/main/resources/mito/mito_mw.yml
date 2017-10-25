@@ -1,0 +1,120 @@
+mito_mw:
+    definition:
+        type: binary
+        value: Muscle weakness
+        directMapping: HP:0001324
+        options:
+            Y:
+                value: Present
+            N:
+                value: Absent
+    children:
+        mito_mw_fac:
+            definition:
+                type: binary
+                value: Facial
+                directMapping: HP:0030319
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_mw_ptosis:
+            definition:
+                type: binary
+                value: Ptosis
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0000508
+        mito_mw_ophthal:
+            definition:
+                type: binary
+                value: Ophthalmoplegia
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0000602
+        mito_mw_axial:
+            definition:
+                type: binary
+                value: Axial/ paraspinal
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0003327
+        mito_mw_proxul:
+            definition:
+                type: binary
+                value: Proximal UL
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0008997
+        mito_mw_proxll:
+            definition:
+                type: binary
+                value: Proximal LL
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0008994
+        mito_mw_distalul:
+            definition:
+                type: binary
+                value: Distal UL
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0008959
+        mito_mw_distalll:
+            definition:
+                type: binary
+                value: Distal LL
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0009053
+        mito_mw_hands:
+            definition:
+                type: binary
+                value: Intrinsic hand muscles
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+        mito_mw_chest:
+            definition:
+                type: binary
+                value: Diaphragmatic/ chest wall
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0009113
+        mito_mw_global:
+            definition:
+                type: binary
+                value: Global weakness
+                options:
+                    1:
+                        value: Present
+                    2:
+                        value: Absent
+                directMapping: HP:0003324
