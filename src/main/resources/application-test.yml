@@ -1,5 +1,6 @@
-server:
-  port: 8080
+spring:
+  profiles:
+    active: test
 
 questionnaire:
-  definitions: /home/tudor/dev/redcaptohpo/src/main/resources
+  definitions: /home/tudor/dev/redcaptohpo/src/main/resources/mito

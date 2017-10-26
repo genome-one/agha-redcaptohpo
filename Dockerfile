@@ -8,6 +8,9 @@ RUN chown -R redcap2hpo:redcap2hpo /var/log/agha
 
 # Move project artifact
 ADD target/redcap-to-hpo-*.jar /home/redcap2hpo/
+RUN mkdir /home/redcap2hpo/resources
+ADD src/main/resources/mito /home/redcap2hpo/resources/mito
+RUN chown -R redcap2hpo:redcap2hpo /home/redcap2hpo/resources
 
 RUN touch /etc/ld.so.conf.d/java.conf
 RUN echo $JAVA_HOME/lib/amd64/jli > /etc/ld.so.conf.d/java.conf

@@ -18,7 +18,7 @@
             </encoder>
         </appender>
 
-        <logger name="one.genome" level="INFO">
+        <logger name="kccg.agha" level="INFO">
             <appender-ref ref="ROLLING"/>
         </logger>
 
@@ -44,7 +44,7 @@
             </encoder>
         </appender>
 
-        <logger name="one.genome" level="INFO">
+        <logger name="kccg.agha" level="INFO">
             <appender-ref ref="ROLLING"/>
         </logger>
 
@@ -70,7 +70,7 @@
             </encoder>
         </appender>
 
-        <logger name="one.genome" level="INFO">
+        <logger name="kccg.agha" level="INFO">
             <appender-ref ref="ROLLING"/>
         </logger>
 
